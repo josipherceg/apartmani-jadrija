@@ -1,0 +1,89 @@
+#content h3 {
+    color: #41838e;
+    text-shadow: 2px 2px #e7e7e7;
+}
+#content-top {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#content-top #content-top-left, #content-top #content-top-right, #content-bottom {
+    height: 350px;
+}
+#content-bottom {
+    height: auto;
+    width: 950px;
+    margin-bottom: 20px;
+    padding: 15px 12px 15px 15px;
+}
+#content-top #content-top-left {
+    width: 680px;
+    position: relative;
+}
+#content-top .slider-wrapper {
+    border-radius: 5px;
+}
+#content-top .nivoSlider {
+    position: relative;
+    background: url(../images/loading.gif) no-repeat 50% 50%;
+    b/*order-radius: 5px;*/
+}
+#content-top .nivoSlider img {
+    width: 680px!important;
+    height: 350px!important;
+    /*border-radius: 5px;*/
+}
+#content-top .nivo-controlNav {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    padding: 0;
+}
+#content-top #content-top-right {
+    float: right;
+    width: 240px;
+    display: inline-block;
+    padding: 0 20px;
+}
+#content-top #content-top-right span {
+    cursor: pointer;
+    color: #539ad3;
+    text-decoration: underline;
+}
+#content-bottom .content-bottom-div {
+    width: 33%;
+    background: url(../images/content_separator2.png) no-repeat;
+    min-height: 340px;
+}
+#content-bottom .content-bottom-div > div {
+    min-height: 200px;
+    text-align: justify;
+    padding: 0 10px;
+}
+#content-bottom .content-bottom-div:last-child > div {
+    padding: 0 0 0 20px;
+}
+#content-bottom .content-bottom-div:first-child {
+    background: none;
+}
+#content-bottom #content-bottom-middle {
+    width: 273px;
+    padding: 0 20px;
+}
+#content-bottom #telInfo {
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+#content-bottom .content-bottom-div > div h3 {
+    margin-bottom: 10px;
+}
+#content-bottom .content-bottom-div .thumbImage {
+    width: 280px;
+    border: 1px solid #c5c5c5;
+    /*border-radius: 5px;*/
+    box-shadow: rgba(0, 0, 0, 0.329412) 0 1px 3px 0;
+}
+#content-bottom .content-bottom-div:last-child, #content-bottom #mailInfo {
+    float: right;
+}

@@ -1,0 +1,105 @@
+.contentWrapper {
+    width: 948px;
+    padding: 15px;
+}
+.contentWrapper h1 {
+    color: #41838e;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    width: 340px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px #e7e7e7;
+}
+.contentWrapper p {
+    font-size: 13px;
+}
+#content-left {
+    background: url(../images/content_separator.png) right top no-repeat;
+    padding-right: 120px;
+    padding-left: 10px;
+}
+#content-left ul {
+    width: 220px;
+}
+#content-left ul li {
+    float: left;
+    clear: both;
+    font-size: 14px;
+    border-bottom: 1px solid #ececec;
+    width: 100%;
+    padding: 8px 0 8px 30px;
+}
+#content-left .kitchen-icon {
+    background: url(../images/icons/kitchen_icon.png) left 3px no-repeat;
+}
+#content-left .livingroom-icon {
+    background: url(../images/icons/livingroom_icon.png) left 8px no-repeat;
+}
+#content-left .bathroom_icon {
+    background: url(../images/icons/bathroom_icon.png) left 7px no-repeat;
+}
+#content-left .badroom_icon {
+    background: url(../images/icons/badroom_icon.png) left 8px no-repeat;
+}
+#content-left .terrace_icon {
+    background: url(../images/icons/terrace_icon.png) left 8px no-repeat;
+}
+#content-left .parking_icon {
+    background: url(../images/icons/parking_icon.png) left 8px no-repeat;
+}
+#content-left .barbicue_icon {
+    background: url(../images/icons/barbicue_icon.png) left 8px no-repeat;
+}
+#content-left .shower_icon {
+    background: url(../images/icons/shower_icon.png) left 8px no-repeat;
+}
+#content-left .aircondition_icon {
+    background: url(../images/icons/aircondition_icon.png) left 9px no-repeat;
+}
+#content-left .tv_icon {
+    background: url(../images/icons/tv_icon.png) left 5px no-repeat;
+}
+#content-left .iron_icon {
+    background: url(../images/icons/iron_icon.png) left 5px no-repeat;
+}
+#content-left .fridge_icon {
+    background: url(../images/icons/fridge_icon.png) left 7px no-repeat;
+}
+#content-right h2 {
+    width: 470px;
+}
+#content-right img {
+    margin-right: 20px;
+    width: 50px;
+    float: left;
+}
+#content-right #datepicker {
+    margin-top: 40px;
+}
+#content-right .ui-datepicker-header {
+    width: 223px;
+}
+#content-right .ui-datepicker-header > a {
+    cursor: pointer;
+}
+#content-right .ui-datepicker .ui-datepicker-title {
+    width: 160px;
+}
+#content-right td.highlight {
+    border: none!important;
+    background: none!important;
+    overflow: hidden;
+    padding: 1px 0 1px 1px !important;
+}
+#content-right td.highlight a {
+    background: #ffe141!important;
+    border: 1px #7aa8c7 solid!important;
+}
+#content-right p.adds {
+    float: left;
+    clear: both;
+    margin-top: 90px;
+}
+#content-right p.adds a, #content-right p.adds a:hover, #content-right p.adds a:active {
+    color: #000;
+}
