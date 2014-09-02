@@ -1,4 +1,4 @@
-<!-- ********** HEADER ********** -->
+<!-- ********** HEADER ********** koji kurac burA -->
 <div id="header">
   <div id="logo-wrapper">
     <div>
